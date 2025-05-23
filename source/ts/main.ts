@@ -23,8 +23,6 @@ app.on("ready", function () {
     useContentSize: true,
     fullscreenable: false,
   });
-
-  mainWindow.webContents.openDevTools();
   //Display the window only once initial loading is complete
   mainWindow.once("ready-to-show", () => {
     (<Electron.BrowserWindow>mainWindow).show();
