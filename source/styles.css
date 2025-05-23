@@ -150,6 +150,7 @@ select {
   border-left: 1px solid #ccc;
   background-color: #eee;
   padding: 1em;
+  width: 20%;
 }
 
 #classify-images #right-column-wrapper #image-progress {
