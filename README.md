@@ -62,7 +62,7 @@ To get started with **TaxoNova** , follow these steps:
 
 1. Load your image dataset into **TaxoNova** .
 2. Begin classification using the newly designed interface.
-3. If a new class is needed, simply enter it and **update labels dynamically** .
+3. If a new class is needed, simply enter it in the label file and **update labels dynamically** using the update labels button in the ui.
 4. Once classified, export the dataset in the required format for AI training or other applications.
 
 ## Contribution & Development
@@ -91,4 +91,4 @@ For major feature discussions, please create an issue before implementing large 
 ## Credits & Acknowledgments
 
 - **Original project:** Taxonomist
-- **Maintainer:** Abdulrhman babelly / GitHub Handle
+- **Maintainer:** Abdulrhman babelly / abdulrhmanbabelly
