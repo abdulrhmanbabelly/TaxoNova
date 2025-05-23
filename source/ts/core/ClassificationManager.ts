@@ -208,7 +208,8 @@ export class ClassificationManager {
       throw err;
     }
   }
-  public updateLabels(newLables: string[]) {
+  public async updateLabels(newLables: string[]) {
     this.labels = newLables;
+    await this.createLabelDirs();
   }
 }
